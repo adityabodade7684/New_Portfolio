@@ -213,6 +213,8 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  /* margin-bottom: 55px; */
+  
   
 }
 .home__blob {
@@ -221,6 +223,7 @@ img {
 }
 .home__blob-img {
   width: 360px;
+  
 
 }
 
@@ -251,7 +254,8 @@ img {
 }
 .about__img img {
   width: 200px;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
+  border-radius: 10rem;
 }
 
 /* ===== SKILLS =====*/
@@ -304,7 +308,7 @@ img {
   width: 65%;
 }
 .skills__ux {
-  width: 85%;
+  width: 68%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -377,6 +381,7 @@ img {
     row-gap: 2rem;
   }
   .home__img {
+    /* display: none; */
     width: 200px;
   }
 }
